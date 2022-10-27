@@ -130,9 +130,13 @@ describe('PUT /event/like', function () {
         if (err) {
           return done(err);
         }
+        var s = 'tamanna';
         return done();
+       
       });
   });
+
+  
 });
 
 
