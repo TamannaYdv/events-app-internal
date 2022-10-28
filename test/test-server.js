@@ -119,7 +119,7 @@ describe('PUT /event/like', function () {
   afterEach(function() {
     dbStub.restore();
   });
-  it('likes an event', function (done) {
+  it('like an event', function (done) {
     dbStub.returns(Promise.resolve({ events: []}));
     request(app)
       .put('/event/like')
