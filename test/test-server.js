@@ -129,8 +129,7 @@ describe('PUT /event/like', function () {
       .end((err, res) => {
         if (err) {
           return done(err);
-        }
-        var s = 'tamanna';
+        };
         return done();
        
       });
